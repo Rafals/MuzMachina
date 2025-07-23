@@ -17,9 +17,37 @@
 
 ## 🚀 Jak uruchomić?
 
-### 1. Serwer
+### Serwer
 
 Uruchom plik `SerwerMuzMachina.java` na hoście:
 ```bash
 javac SerwerMuzMachina.java
 java SerwerMuzMachina
+
+🌐 Wymagania
+Java 8 lub nowsza
+
+Połączenie sieciowe (wszystkie klienty muszą łączyć się z tym samym serwerem)
+
+🛠️ Technologie
+Java Swing – GUI
+
+Java Socket – komunikacja klient-serwer
+
+Serializable – przesyłanie obiektów (kompozycji)
+
+Multi-threading – obsługa wielu klientów
+
+🗣️ Przykład użycia
+Użytkownik A tworzy rytm, klika Wyślij.
+
+Rytm pojawia się u wszystkich innych użytkowników.
+
+Każdy może odtworzyć rytm, zmodyfikować go i odesłać z powrotem.
+
+Użytkownicy mogą czatować w oknie po prawej stronie.
+
+📚 Źródło
+Projekt oparty na rozdziale z książki:
+"Java. Rusz głową!" – Kathy Sierra & Bert Bates
+
